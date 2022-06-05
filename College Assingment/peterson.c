@@ -1,6 +1,12 @@
 #include<stdio.h>
 int main()
 {
+    /*A number is said to be Peterson
+    if the sum of factorials of each digit is equal to the sum of the number itself.
+    Krishnamurthy number is another special number in Java. A number is said to be Krishnamurthy 
+    if the factorial sum of all its digits is equal to that number
+    example- 145
+    */
     int num,d,f,term,sum=0,i;
     printf("Enter the number: ");
     scanf("%d",&num);
