@@ -2,7 +2,7 @@
 a function and print its address. Are these addresses same? Why*/
 
 #include<stdio.h>
-int func_adress(int a);
+void func_adress(int a);
 int main()
 {
     int i=20;
@@ -12,7 +12,7 @@ int main()
 
     return 0;
 }
-int func_adress(int a)
+void func_adress(int a)
 {
     int *x;
     x=&a;
