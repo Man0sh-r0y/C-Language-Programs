@@ -10,7 +10,6 @@ int main()
 }
 int sumNatural(int n)
 {
-	static int sum=0;
 	if(n!=0)
 	{
 		return n+sumNatural(n-1);
